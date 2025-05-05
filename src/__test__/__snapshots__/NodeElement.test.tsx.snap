@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`{
+  id: 'srv1',
+  name: 'srv1',
+  focused: undefined,
+  selected: undefined,
+  hasevents: undefined,
+  nodeType: 'File server',
+  status: 2
+} renders Node Element 1`] = `
+<DocumentFragment>
+  <div
+    class="gr-node-parent"
+    data-testid="ui-map-node-srv1"
+  >
+    <div
+      class="gr-node-child"
+    >
+      <svg
+        id="fileserver.svg"
+      />
+      <div
+        class="gr-node-ind-status"
+      >
+        <svg
+          id="warning.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{
+  id: 'srv2',
+  name: 'srv2',
+  focused: undefined,
+  selected: undefined,
+  hasevents: undefined,
+  nodeType: 'Web server',
+  status: 3
+} renders Node Element 1`] = `
+<DocumentFragment>
+  <div
+    class="gr-node-parent"
+    data-testid="ui-map-node-srv2"
+  >
+    <div
+      class="gr-node-child"
+    >
+      <svg
+        id="webserver.svg"
+      />
+      <div
+        class="gr-node-ind-status"
+      >
+        <svg
+          id="error.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{
+  id: 'srv3',
+  name: 'srv3',
+  focused: undefined,
+  selected: undefined,
+  hasevents: undefined,
+  nodeType: 'Host',
+  status: 1
+} renders Node Element 1`] = `
+<DocumentFragment>
+  <div
+    class="gr-node-parent"
+    data-testid="ui-map-node-srv3"
+  >
+    <div
+      class="gr-node-child"
+    >
+      <svg
+        id="server.svg"
+      />
+      <div
+        class="gr-node-ind-status"
+      >
+        <svg
+          id="ok.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,76 @@
+.ui-props {
+  position: relative;
+  width: 350px;
+  background: #f4f4f4;
+  border-left: 1px solid #828080;
+}
+
+.ui-props-head {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 24px;
+  left: 0;
+  top: 0;
+  background: #828080;
+}
+
+.ui-props-head-title {
+  display: block;
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: white;
+  font-size: 10pt;
+  font-weight: bolder;
+}
+
+.ui-props-head-title.caption {
+  width: 30%;
+}
+
+.ui-props-head-title.nodename {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  left: 30%;
+  width: 50%;
+  font-size: 10pt;
+  font-weight: bolder;
+}
+
+.ui-props-head-title.pict1 {
+  left: 83%;
+}
+
+.ui-props-head-title.pict2 {
+  left: 92%;
+}
+
+.ui-tbl {
+  border-collapse: separate;
+  border-spacing: 0 0;
+  width: 100%;
+}
+
+.ui-tbl-row {
+  line-height: 20px;
+  width: 100%;
+}
+
+.ui-tbl-cell1 {
+  width: 30%;
+  color: #828080;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.ui-tbl-cell2 {
+  font-size: 10pt;
+}
+
+.ui-row-colored {
+  background-color: #d9d9d9;
+}

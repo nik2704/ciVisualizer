@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`{ status: 0, statusString: 'unknown', color: 'gray' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-title"
+  >
+    <div
+      class="ui-box-head ui-status-txt"
+    >
+      unknown
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 1, statusString: 'success', color: 'green' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-title"
+  >
+    <div
+      class="ui-box-head ui-status-txt"
+    >
+      success
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 2, statusString: 'warning', color: 'orange' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-title"
+  >
+    <div
+      class="ui-box-head ui-status-txt"
+    >
+      warning
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 3, statusString: 'critical', color: 'red' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-title"
+  >
+    <div
+      class="ui-box-head ui-status-txt"
+    >
+      critical
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`{ currentNode: '-', currentLink: '-' } renders SelectionPropsTable 1`] = `
+<DocumentFragment>
+  <table
+    class="ui-tbl"
+  >
+    <tbody>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле1
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля1
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row ui-row-colored"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле2
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля2
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле3
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`{ currentNode: '-', currentLink: 'test' } renders SelectionPropsTable 1`] = `
+<DocumentFragment>
+  <table
+    class="ui-tbl"
+  >
+    <tbody>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле1
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля1
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row ui-row-colored"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле2
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля2
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле3
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`{ currentNode: 'test', currentLink: '-' } renders SelectionPropsTable 1`] = `
+<DocumentFragment>
+  <table
+    class="ui-tbl"
+  >
+    <tbody>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле1
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля1
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row ui-row-colored"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле2
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля2
+        </td>
+      </tr>
+      <tr
+        class="ui-tbl-row"
+      >
+        <td
+          class="ui-tbl-cell1"
+        >
+          Поле3
+        </td>
+        <td
+          class="ui-tbl-cell2 "
+        >
+          Значение поля3
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;

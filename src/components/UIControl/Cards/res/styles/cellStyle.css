@@ -1,0 +1,19 @@
+.ui-cell-red {
+  background-color: #b01212;
+  color: white;
+}
+
+.ui-cell-green {
+  background-color: #196f3d;
+  color: white;
+}
+
+.ui-cell-orange {
+  background-color: #d35400;
+  color: white;
+}
+
+.ui-cell-gray {
+  background-color: #2471a3;
+  color: white;
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`{ status: 0, statusString: 'unknown', color: 'gray' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    id="question.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`{ status: 1, statusString: 'success', color: 'green' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    id="ok.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`{ status: 2, statusString: 'warning', color: 'orange' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    id="warning.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`{ status: 3, statusString: 'critical', color: 'red' } renders LineTitle snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    id="error.svg"
+  />
+</DocumentFragment>
+`;

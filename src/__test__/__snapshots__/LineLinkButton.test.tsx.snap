@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`{ status: 0, statusString: 'unknown', color: 'gray' } renders LinkLineButton snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-desc"
+    data-testid="ui-legend-node-btn-0"
+  >
+    <div
+      class="ui-box-icon"
+    >
+      <svg
+        id="question.svg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 1, statusString: 'success', color: 'green' } renders LinkLineButton snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-desc"
+    data-testid="ui-legend-node-btn-1"
+  >
+    <div
+      class="ui-box-icon"
+    >
+      <svg
+        id="ok.svg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 2, statusString: 'warning', color: 'orange' } renders LinkLineButton snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-desc"
+    data-testid="ui-legend-node-btn-2"
+  >
+    <div
+      class="ui-box-icon"
+    >
+      <svg
+        id="warning.svg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`{ status: 3, statusString: 'critical', color: 'red' } renders LinkLineButton snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-desc"
+    data-testid="ui-legend-node-btn-3"
+  >
+    <div
+      class="ui-box-icon"
+    >
+      <svg
+        id="error.svg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

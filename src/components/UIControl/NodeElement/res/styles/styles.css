@@ -1,0 +1,72 @@
+.gr-node-parent {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.gr-node-child {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgb(251 251 251);
+  background: radial-gradient(circle, rgba(251 251 251 / 1) 0%, rgba(236 236 236 / 1) 100%);
+}
+
+.gr-node-child.gr-node-child-focused {
+  background: rgb(250 243 246);
+  background: radial-gradient(circle, rgba(250 243 246 / 1) 0%, rgba(148 218 233 / 1) 100%);
+}
+
+.gr-node-parent.gr-node-child-selected {
+  background: #4682b4;
+}
+
+.gr-node-child:hover {
+  background: rgb(148 218 233);
+  background: radial-gradient(circle, rgba(148 218 233 / 1) 0%, rgba(250 243 246 / 1) 100%);
+}
+
+.gr-node-ind-events {
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 50%;
+  width: 27%;
+  height: 27%;
+  background: red;
+}
+
+.gr-node-ind-status {
+  margin: 0;
+  padding: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 27%;
+  height: 27%;
+  text-align: center;
+}
+
+.gr-node-pict {
+  margin: 20%;
+}
+
+.gr-node-status-pict {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+}

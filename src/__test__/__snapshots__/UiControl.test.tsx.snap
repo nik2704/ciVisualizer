@@ -1,0 +1,2112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders UIControl initial - selected node 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="ui-main-graph-container"
+    style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"
+  >
+    <div
+      class="MuiBox-root css-i2cct0"
+    >
+      <div
+        class="css-e53awj-MuiStack-root"
+      >
+        <button
+          aria-label="force graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeMedium css-1gws2xf-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FlareIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 11H1v2h6v-2zm2.17-3.24L7.05 5.64 5.64 7.05l2.12 2.12 1.41-1.41zM13 1h-2v6h2V1zm5.36 6.05-1.41-1.41-2.12 2.12 1.41 1.41 2.12-2.12zM17 11v2h6v-2h-6zm-5-2c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm2.83 7.24 2.12 2.12 1.41-1.41-2.12-2.12-1.41 1.41zm-9.19.71 1.41 1.41 2.12-2.12-1.41-1.41-2.12 2.12zM11 23h2v-6h-2v6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="orthogonal graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="PolylineIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15 16v1.26l-6-3v-3.17L11.7 8H16V2h-6v4.9L7.3 10H3v6h5l7 3.5V22h6v-6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="hierarchical graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="AccountTreeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="round graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="WorkspacesIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 13c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm6-10C9.8 3 8 4.8 8 7s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm6 10c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="settings"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="SettingsIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <div />
+      </div>
+    </div>
+    <div
+      style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"
+    >
+      <div
+        id="graph-container"
+        style="width: 100%; display: flex; justify-content: space-between; padding: 1em; box-sizing: border-box; position: absolute; bottom: 0px; opacity: 1;"
+      >
+        <div
+          id="graph-id-0-graph-wrapper"
+        >
+          <svg
+            name="svg-container-graph-id-0"
+            style="height: 0px; width: 0px;"
+          >
+            <defs>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-small"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-small-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-large"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-large-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-small-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-small-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-small-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-small-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-small-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-small-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-small-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-small-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-medium-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-medium-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-medium-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-medium-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-medium-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-medium-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-medium-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-large-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-large-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-large-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-large-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-large-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-large-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-large-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-large-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+            </defs>
+            <g
+              id="graph-id-0-graph-container-zoomable"
+              style="transition-duration: 0s;"
+            >
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv1,srv2"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv1,srv2"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv2,srv3"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv2,srv3"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv3,srv1"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv3,srv1"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv1"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent gr-node-child-selected"
+                        data-testid="ui-map-node-srv1"
+                      >
+                        <div
+                          class="gr-node-child gr-node-child-focused"
+                        >
+                          <svg
+                            id="fileserver.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="warning.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv1
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv2"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent"
+                        data-testid="ui-map-node-srv2"
+                      >
+                        <div
+                          class="gr-node-child"
+                        >
+                          <svg
+                            id="webserver.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="error.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv2
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv3"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent"
+                        data-testid="ui-map-node-srv3"
+                      >
+                        <div
+                          class="gr-node-child"
+                        >
+                          <svg
+                            id="server.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="ok.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv3
+                </text>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        id="legend-property-container"
+        style="width: 100%; display: flex; justify-content: space-between; padding: 1em; box-sizing: border-box; position: absolute; bottom: 0px; z-index: 9;"
+      >
+        <div
+          class="MuiBox-root css-6c3ofm"
+        >
+          <div
+            class="ui-legend"
+            data-testid="ui-tool-legend"
+          >
+            <div
+              class="ui-box-line ui-box-line-head"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head"
+                >
+                  Статус
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <img
+                    alt=""
+                    src="links.svg"
+                  />
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <img
+                    alt=""
+                    src="server.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-line"
+            />
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  critical
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-3"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-red"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-3"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="error.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  warning
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-2"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-orange"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-2"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="warning.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  success
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-1"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-green"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-1"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="ok.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  unknown
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-0"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-gray"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-0"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="question.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-2p8bra"
+        >
+          <div
+            class="ui-props"
+            data-testid="ui-tool-selection"
+          >
+            <div
+              class="ui-props-head"
+            >
+              <div
+                class="ui-props-head-title caption"
+              >
+                File server
+              </div>
+              <div
+                class="ui-props-head-title nodename"
+              >
+                srv1
+              </div>
+              <div
+                class="ui-props-head-title pict1"
+              >
+                <svg
+                  id="card.svg"
+                />
+              </div>
+              <div
+                class="ui-props-head-title pict2"
+              >
+                <svg
+                  id="email.svg"
+                />
+              </div>
+            </div>
+            <table
+              class="ui-tbl"
+            >
+              <tbody>
+                <tr
+                  class="ui-tbl-row"
+                >
+                  <td
+                    class="ui-tbl-cell1"
+                  >
+                    Код
+                  </td>
+                  <td
+                    class="ui-tbl-cell2 "
+                  >
+                    srv1
+                  </td>
+                </tr>
+                <tr
+                  class="ui-tbl-row ui-row-colored"
+                >
+                  <td
+                    class="ui-tbl-cell1"
+                  >
+                    Название
+                  </td>
+                  <td
+                    class="ui-tbl-cell2 "
+                  >
+                    srv1
+                  </td>
+                </tr>
+                <tr
+                  class="ui-tbl-row"
+                >
+                  <td
+                    class="ui-tbl-cell1"
+                  >
+                    Статус
+                  </td>
+                  <td
+                    class="ui-tbl-cell2 ui-cell-orange"
+                  >
+                    warning
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders UIControl initial 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="ui-main-graph-container"
+    style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"
+  >
+    <div
+      class="MuiBox-root css-i2cct0"
+    >
+      <div
+        class="css-e53awj-MuiStack-root"
+      >
+        <button
+          aria-label="force graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorSecondary MuiIconButton-sizeMedium css-1gws2xf-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="FlareIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 11H1v2h6v-2zm2.17-3.24L7.05 5.64 5.64 7.05l2.12 2.12 1.41-1.41zM13 1h-2v6h2V1zm5.36 6.05-1.41-1.41-2.12 2.12 1.41 1.41 2.12-2.12zM17 11v2h6v-2h-6zm-5-2c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm2.83 7.24 2.12 2.12 1.41-1.41-2.12-2.12-1.41 1.41zm-9.19.71 1.41 1.41 2.12-2.12-1.41-1.41-2.12 2.12zM11 23h2v-6h-2v6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="orthogonal graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="PolylineIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M15 16v1.26l-6-3v-3.17L11.7 8H16V2h-6v4.9L7.3 10H3v6h5l7 3.5V22h6v-6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="hierarchical graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="AccountTreeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="round graph"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="WorkspacesIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6 13c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm6-10C9.8 3 8 4.8 8 7s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm6 10c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="settings"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="SettingsIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <div />
+      </div>
+    </div>
+    <div
+      style="position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px;"
+    >
+      <div
+        id="graph-container"
+        style="width: 100%; display: flex; justify-content: space-between; padding: 1em; box-sizing: border-box; position: absolute; bottom: 0px; opacity: 1;"
+      >
+        <div
+          id="graph-id-0-graph-wrapper"
+        >
+          <svg
+            name="svg-container-graph-id-0"
+            style="height: 0px; width: 0px;"
+          >
+            <defs>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-small"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-small-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-large"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-large-highlighted"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-small-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-small-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-small-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-small-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-small-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-small-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-small-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-small-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="16"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-medium-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-medium-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-medium-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="#d3d3d3"
+                id="marker-medium-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-medium-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-medium-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-medium-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-medium-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="21.333333333333332"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-large-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-large-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-large-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-large-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="green"
+                id="marker-large-green"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="orange"
+                id="marker-large-orange"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="red"
+                id="marker-large-red"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+              <marker
+                class="marker"
+                fill="gray"
+                id="marker-large-gray"
+                markerHeight="6"
+                markerWidth="6"
+                orient="auto"
+                refX="26.666666666666664"
+                refY="0"
+                viewBox="0 -5 10 10"
+              >
+                <path
+                  d="M0,-5L10,0L0,5"
+                />
+              </marker>
+            </defs>
+            <g
+              id="graph-id-0-graph-container-zoomable"
+              style="transition-duration: 0s;"
+            >
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv1,srv2"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv1,srv2"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv2,srv3"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv2,srv3"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g>
+                <path
+                  class="link"
+                  d="M0,0 A0,0 0 0,1 0,0"
+                  id="srv3,srv1"
+                  marker-end="url(#marker-small-gray)"
+                  style="stroke-width: 1.1; stroke: gray; opacity: 1; fill: none; cursor: pointer; stroke-dasharray: 0; stroke-dashoffset: 0; stroke-linecap: butt;"
+                />
+                <text
+                  dy="-1"
+                  style="fill: gray; font-size: 12px; font-weight: normal;"
+                >
+                  <textpath
+                    href="#srv3,srv1"
+                    startOffset="50%"
+                  >
+                    view name
+                  </textpath>
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv1"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent"
+                        data-testid="ui-map-node-srv1"
+                      >
+                        <div
+                          class="gr-node-child"
+                        >
+                          <svg
+                            id="fileserver.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="warning.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv1
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv2"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent"
+                        data-testid="ui-map-node-srv2"
+                      >
+                        <div
+                          class="gr-node-child"
+                        >
+                          <svg
+                            id="webserver.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="error.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv2
+                </text>
+              </g>
+              <g
+                class="node"
+                cx="0"
+                cy="0"
+                id="srv3"
+                transform="translate(-21,-21)"
+              >
+                <svg
+                  cursor="pointer"
+                  height="42"
+                  opacity="1"
+                  width="42"
+                >
+                  <foreignobject
+                    height="100%"
+                    width="100%"
+                    x="0"
+                    y="0"
+                  >
+                    <section
+                      style="height: 42px; width: 42px; background-color: transparent;"
+                    >
+                      <div
+                        class="gr-node-parent"
+                        data-testid="ui-map-node-srv3"
+                      >
+                        <div
+                          class="gr-node-child"
+                        >
+                          <svg
+                            id="server.svg"
+                          />
+                          <div
+                            class="gr-node-ind-status"
+                          >
+                            <svg
+                              id="ok.svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </foreignobject>
+                </svg>
+                <text
+                  dx="21.2"
+                  dy=".35em"
+                  fill="black"
+                  font-size="12"
+                  font-weight="normal"
+                  opacity="1"
+                  transform="translate(21,21)"
+                >
+                  srv3
+                </text>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        id="legend-property-container"
+        style="width: 100%; display: flex; justify-content: space-between; padding: 1em; box-sizing: border-box; position: absolute; bottom: 0px; z-index: 9;"
+      >
+        <div
+          class="MuiBox-root css-6c3ofm"
+        >
+          <div
+            class="ui-legend"
+            data-testid="ui-tool-legend"
+          >
+            <div
+              class="ui-box-line ui-box-line-head"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head"
+                >
+                  Статус
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <img
+                    alt=""
+                    src="links.svg"
+                  />
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <img
+                    alt=""
+                    src="server.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-line"
+            />
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  critical
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-3"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-red"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-3"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="error.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  warning
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-2"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-orange"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-2"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="warning.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  success
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-1"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-green"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-1"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="ok.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="ui-box-line ui-box-line-body"
+            >
+              <div
+                class="ui-box-title"
+              >
+                <div
+                  class="ui-box-head ui-status-txt"
+                >
+                  unknown
+                </div>
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-link-btn-0"
+              >
+                <div
+                  class="ui-legend-icon ui-cell-gray"
+                />
+              </div>
+              <div
+                class="ui-box-desc"
+                data-testid="ui-legend-node-btn-0"
+              >
+                <div
+                  class="ui-box-icon"
+                >
+                  <svg
+                    id="question.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

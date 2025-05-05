@@ -1,0 +1,103 @@
+{
+  "name": "viewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@codemirror/lang-python": "^6.0.0",
+    "@codemirror/state": "6.1.0",
+    "@date-io/dayjs": "1.x",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "@mui/icons-material": "5.0.0-rc.1",
+    "@mui/lab": "5.0.0-alpha.46",
+    "@mui/material": "5.0.0-rc.1",
+    "@mui/styles": "5.0.0-rc.1",
+    "@sentry/react": "7.10.0",
+    "@sentry/tracing": "^7.10.0",
+    "@tinymce/tinymce-react": "^4.1.0",
+    "@uiw/react-codemirror": "^4.11.0",
+    "axios": "^0.27.2",
+    "camel-case": "4.1.2",
+    "classnames": "2.3.1",
+    "dayjs": "1.10.7",
+    "handy-filter": "1.2.0",
+    "handy-filter-hook": "1.0.2",
+    "history": "5.2.0",
+    "mobx": "6.3.2",
+    "mobx-react": "7.2.0",
+    "notistack": "1.0.6-next.3",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-inlinesvg": "2.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "4.0.3",
+    "react-swipeable-views": "^0.14.0",
+    "snake-case": "3.0.4",
+    "tinymce": "6.1.0",
+    "typescript": "4.3.4",
+    "upgrade": "^1.1.0",
+    "uuid": "8.3.2",
+    "web-vitals": "1.1.2"
+  },
+  "scripts": {
+    "start": "ESLINT_NO_DEV_ERRORS=true TSC_COMPILE_ON_ERROR=true FAST_REFRESH=false craco start",
+    "build": "craco build",
+    "test": "craco test --watchAll",
+    "testCoverage": "craco test --collectCoverage --reporters=default --watchAll=false",
+    "eject": "craco eject",
+    "lint": "concurrently 'stylelint src/**/*[.css][.scss] --allow-empty-input' 'eslint --ext .jsx --ext .js --ext .tsx --ext .ts --no-error-on-unmatched-pattern src/*' 'tsc --noEmit'",
+    "tslint": "tsc --noEmit",
+    "analyze": "source-map-explorer 'build/static/js/*.js' --html 'analyze/result.html'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "7.14.5",
+    "@craco/craco": "6.1.2",
+    "@dr.pogodin/babel-plugin-react-css-modules": "6.1.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "26.0.23",
+    "@types/node": "12.20.15",
+    "@types/react": "^18.0.14",
+    "@types/react-color": "^3.0.6",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-swipeable-views": "^0.13.1",
+    "@types/uuid": "8.3.1",
+    "babel-plugin-module-resolver": "4.1.0",
+    "babel-plugin-relay": "11.0.2",
+    "blob-polyfill": "^7.0.20220408",
+    "concurrently": "6.2.0",
+    "eslint-config-airbnb-typescript": "12.3.1",
+    "eslint-plugin-class-property": "1.1.0",
+    "eslint-plugin-require-jsdoc-except": "1.5.0",
+    "jest": "26.6.0",
+    "jest-junit": "12.2.0",
+    "postcss": "8.3.5",
+    "postcss-loader": "6.1.1",
+    "source-map-explorer": "2.5.2",
+    "stylelint": "14.9.1",
+    "stylelint-config-standard": "26.0.0",
+    "ts-jest": "27.0.3",
+    "ts-sinon": "2.0.1"
+  }
+}

@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PROPS EMPTY LIST 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-2p8bra"
+  >
+    <div
+      class="ui-props"
+      data-testid="ui-tool-selection"
+    >
+      <div
+        class="ui-props-head"
+      >
+        <div
+          class="ui-props-head-title caption"
+        >
+          ОБЪЕКТ
+        </div>
+        <div
+          class="ui-props-head-title nodename"
+        >
+          -----------------
+        </div>
+        <div
+          class="ui-props-head-title pict1"
+        >
+          <svg
+            id="card.svg"
+          />
+        </div>
+        <div
+          class="ui-props-head-title pict2"
+        >
+          <svg
+            id="email.svg"
+          />
+        </div>
+      </div>
+      <table
+        class="ui-tbl"
+      >
+        <tbody>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле1
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля1
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row ui-row-colored"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле2
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля2
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле3
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля3
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders current link (0 index from test dataset) 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-2p8bra"
+  >
+    <div
+      class="ui-props"
+      data-testid="ui-tool-selection"
+    >
+      <div
+        class="ui-props-head"
+      >
+        <div
+          class="ui-props-head-title caption"
+        >
+          Связь
+        </div>
+        <div
+          class="ui-props-head-title nodename"
+        >
+          view name
+        </div>
+        <div
+          class="ui-props-head-title pict1"
+        >
+          <svg
+            id="card.svg"
+          />
+        </div>
+        <div
+          class="ui-props-head-title pict2"
+        >
+          <svg
+            id="email.svg"
+          />
+        </div>
+      </div>
+      <table
+        class="ui-tbl"
+      >
+        <tbody>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле1
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля1
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row ui-row-colored"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле2
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля2
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле3
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля3
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders current node (0 index from test dataset) 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-2p8bra"
+  >
+    <div
+      class="ui-props"
+      data-testid="ui-tool-selection"
+    >
+      <div
+        class="ui-props-head"
+      >
+        <div
+          class="ui-props-head-title caption"
+        >
+          File server
+        </div>
+        <div
+          class="ui-props-head-title nodename"
+        >
+          srv1
+        </div>
+        <div
+          class="ui-props-head-title pict1"
+        >
+          <svg
+            id="card.svg"
+          />
+        </div>
+        <div
+          class="ui-props-head-title pict2"
+        >
+          <svg
+            id="email.svg"
+          />
+        </div>
+      </div>
+      <table
+        class="ui-tbl"
+      >
+        <tbody>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле1
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля1
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row ui-row-colored"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле2
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля2
+            </td>
+          </tr>
+          <tr
+            class="ui-tbl-row"
+          >
+            <td
+              class="ui-tbl-cell1"
+            >
+              Поле3
+            </td>
+            <td
+              class="ui-tbl-cell2 "
+            >
+              Значение поля3
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</DocumentFragment>
+`;

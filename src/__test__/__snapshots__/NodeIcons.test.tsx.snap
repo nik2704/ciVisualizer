@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Database server renders Node Icon 1`] = `
+<DocumentFragment>
+  <svg
+    id="dbserver.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`File server renders Node Icon 1`] = `
+<DocumentFragment>
+  <svg
+    id="fileserver.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`Host renders Node Icon 1`] = `
+<DocumentFragment>
+  <svg
+    id="server.svg"
+  />
+</DocumentFragment>
+`;
+
+exports[`Web server renders Node Icon 1`] = `
+<DocumentFragment>
+  <svg
+    id="webserver.svg"
+  />
+</DocumentFragment>
+`;

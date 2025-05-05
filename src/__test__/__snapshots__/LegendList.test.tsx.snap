@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders list 1`] = `
+<DocumentFragment>
+  <div
+    class="ui-box-line ui-box-line-body"
+  >
+    <div
+      class="ui-box-title"
+    >
+      <div
+        class="ui-box-head ui-status-txt"
+      >
+        critical
+      </div>
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-link-btn-3"
+    >
+      <div
+        class="ui-legend-icon ui-cell-red"
+      />
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-node-btn-3"
+    >
+      <div
+        class="ui-box-icon"
+      >
+        <svg
+          id="error.svg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ui-box-line ui-box-line-body"
+  >
+    <div
+      class="ui-box-title"
+    >
+      <div
+        class="ui-box-head ui-status-txt"
+      >
+        warning
+      </div>
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-link-btn-2"
+    >
+      <div
+        class="ui-legend-icon ui-cell-orange"
+      />
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-node-btn-2"
+    >
+      <div
+        class="ui-box-icon"
+      >
+        <svg
+          id="warning.svg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ui-box-line ui-box-line-body"
+  >
+    <div
+      class="ui-box-title"
+    >
+      <div
+        class="ui-box-head ui-status-txt"
+      >
+        success
+      </div>
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-link-btn-1"
+    >
+      <div
+        class="ui-legend-icon ui-cell-green"
+      />
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-node-btn-1"
+    >
+      <div
+        class="ui-box-icon"
+      >
+        <svg
+          id="ok.svg"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="ui-box-line ui-box-line-body"
+  >
+    <div
+      class="ui-box-title"
+    >
+      <div
+        class="ui-box-head ui-status-txt"
+      >
+        unknown
+      </div>
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-link-btn-0"
+    >
+      <div
+        class="ui-legend-icon ui-cell-gray"
+      />
+    </div>
+    <div
+      class="ui-box-desc"
+      data-testid="ui-legend-node-btn-0"
+    >
+      <div
+        class="ui-box-icon"
+      >
+        <svg
+          id="question.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
