@@ -1,5 +1,8 @@
 # Data Visualizer Development
 
+![Data Visualizer Demo](docs/demo.gif)
+
+
 Built using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
